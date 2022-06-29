@@ -1,0 +1,33 @@
+------------------SOME OF USEFULL GIT COMMANDS--------------------------
+
+1). git init-->for initialization.
+
+2). git status-->for status check.
+
+3). git --help-->To check available commands in git.
+
+4). git add . or git add *.* or git add "filename.fileformate"-->To add file
+
+5). git log-->To check what and all process we done recently.
+
+6). git commit -m "add any message you want"--> To commit the files to github.
+
+7). git remote add origin "git url"-->To open git hub in web.
+
+8). git push -u origin master-->To push all the file to Github.
+
+9). git config --global user.email "Your email"-->If you run this in command you will not get login page. when you use next time.
+
+10). git config --global user.name "Username"-->If you run this in command you will not get login page. when you use next time.
+
+11). dir > filename--> It will add file to your current folder.
+
+12). git branch "branch name"-->It will create Another branch.
+
+13). git checkout "Branch name"-->It will point to Branch name.
+
+14). git merge "Branch name"-->It will merge all the files in branch origin.
+
+15). git branch -d "Branch name"-->It will delete Only local files.
+
+16). git push origin --delete "Branch name"-->It will delete Only remote files.
