@@ -1,0 +1,30 @@
+pipeline{
+    agent any
+    stages{
+        stage('plan'){
+            steps{
+                echo 'HAPPY PLAN'
+            }
+        }
+        stage('code'){
+            steps{
+                echo 'HAPPY CODE'
+            }
+        }
+        stage('test'){
+            steps{
+                echo 'HAPPY TEST'
+            }
+        }
+        stage('build'){
+            steps{
+                echo 'HAPPY BUILD'
+            }
+        }
+        stage('release'){
+            steps{
+                echo 'HAPPY RELEASE'
+            }
+        }
+    }
+}
